@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Lauren Hyde</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+  <div id="header">
+    <div id="name">
+      <div id="divider"></div>
+      <h1>Lauren Hyde<br></h1>
+    </div>
+    <div id="nav">
+      <a href="#resume">Education</a>
+      <div id="divider"></div>
+      <div id="divider"></div>
+      <a href="#hs">Skills</a>
+      <div id="divider"></div>
+      <div id="divider"></div>
+      <a href="#exp">Projects</a>
+      <div id="divider"></div>
+      <div class="dropdown" style="float: right;">
+        <button class="dropbtn">Contact Me</button>
+        <div class="dropdown_content">
+          <a target="_blank" href=https://www.linkedin.com/in/lauren-hyde05><img src="imgs/linkedin3.png" id="linkedin"
+              height="21px" width="22px"> Linkedin</a>
+          <a target="_blank" href="https://www.facebook.com/profile.php?id=100039201878785"><img
+              src="imgs/facebook2.png" id="facebook" height="22px" width="22px"> Facebook</a>
+          <div id="divider"></div>
+          <a target="_blank" href="mailto: lrhyde13@gmail.com"><img src="imgs/email2.png" id="email" height="21px"
+              width="22px">
+            Email</a>
+        </div>
+      </div>
+      <div id="divider"></div>
+    </div>
+  </div>
+  <div id="about">
+    <img src="imgs/profileimg.jpg" height="350px" width="350px" id="profimg" class="show2">
+    <div id="abouttext" class="show2">
+      <span id="atitle">About Me</span><br><br> I am a first year computer science student at the University of
+      Illinois at Urbana-Champaign. I am interested in many aspects of CS, particularly app development and data
+      science.
+      In my free time, I am very involved in community service, particularly through tutoring in STEM subjects. I also
+      enjoy playing volleyball, listening to music, and walking in nature!<br><br>
+      <a href="Hyde_Resume_Summer23_2.pdf" download id="resume">Download my Resume</a>
+    </div>
+  </div>
+  <h2 id="edutitle" class="show2">Education</h2>
+  <div id="education" class="show2">
+    <div id="divider"></div>
+    <div id="college">
+      <span id="title">University of Illinois at Urbana-Champaign</span><br>
+      <img src="imgs/uiuc.png" height="80px" width="65px"><br>
+      Major: Computer Science<br>
+      Grainger School of Engineering<br>
+      Class of 2027
+    </div><br>
+    <div id="divider"></div>
+    <div id="hs"><span id="title">Thomas Jefferson High School for Science and Technology</span><br>
+      <img src="imgs/tjhsst.png" height="80px" width="80px"><br>
+      Computer Systems Research Lab<br>
+      GPA: 4.563 (UW: 4.0/4.0)<br>
+      Class of 2023
+    </div>
+  </div>
+  <h2 id="sktitle" class="show2">Skills</h2>
+  <div id="skills" class="show2">
+    <div id="divider"></div>
+    <div id="langs"><span id="title">Programming/Markup Languages</span>
+      <ul>
+        <li>Python</li>
+        <li>Java</li>
+        <li>C++</li>
+        <li>R</li>
+        <li>JavaScript</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>SQL</li>
+      </ul>
+    </div>
+    <div id="divider"></div>
+    <div id="oskills"><span id="title">Technical Skills</span>
+      <ul>
+        <li>Web App Development (Vite, Flask, React, Node.js)</li>
+        <li>Mobile (Android) App Development</li>
+        <li>Data Visualization</li>
+        <li>Data Analysis</li>
+        <li>Computer Vision</li>
+        <li>Data Structures</li>
+        <li>Artificial Intelligence & Algorithms</li>
+        <li>Computer Aided Design (CAD)</li>
+      </ul>
+    </div>
+    <div id="divider"></div>
+    <div id="cw"><span id="title">Coursework</span>
+      <ul>
+        <li>Mobile & Web App Development</li>
+        <li>Artificial Intelligence 1 & 2</li>
+        <li>Computer Vision 1 & 2</li>
+        <li>Computer Systems Research Lab</li>
+        <li>Wharton Data Science Academy</li>
+        <li>AP Computer Science A with data structures (exam score: 5/5)</li>
+        <li>Linear Algebra</li>
+        <li>AP Statistics (exam score: 5/5)</li>
+        <li>Calculus 2 (exam score: 5/5)</li>
+        <li>Physics (Calculus-based), biology, and chemistry</li>
+      </ul>
+    </div>
+    <div id="divider"></div>
+    <div id="exp"><span id="title">Other Experience</span>
+      <ul>
+        <li>GEMS (Glasgow Engineering, Math, and Science) Teaching Program - President</li>
+        <li>German Honor Society - Vice President</li>
+        <li>Girls Who Math - Python Teacher (2022)</li>
+        <li>USA Computing Olympiad (silver bracket)</li>
+        <li>Schoolhouse.world Tutor</li>
+        <li>TJ Peer Tutor (precalculus, physics, computer science)</li>
+        <li>Fairfax County Student Tutoring Association (math tutor)</li>
+      </ul>
+    </div>
+  </div>
+  <h2 id="projtitle" class="show2">Projects</h2>
+  <span id="projtext"></span><br><br>
+  <div id="projects">
+    <div id="name">
+      <div id="dsa" class="show">
+        <div id="dsatitle"><button onclick="dsashow()" id="ptitle">Wharton Data Science Academy</button></div>
+        <div id="container">
+          <div id="divider"></div><img src="imgs/dsa3.png" height=30% width=40% id="auto"><br>
+          <div id="divider"></div>
+          <p>
+            I attended the Wharton Data Science Academy in the summer of 2022. It was an intensive, 3-week course on
+            data
+            science and
+            statistical analysis fundamentals in R. Our final project was an analysis of the factors that contribute to
+            depression and other mental health concerns in college students. We investigated a total of 50 qualitative
+            and quantitative variables, around 10 of which ended up being significant in our final models. Our
+            techniques
+            included logistic and linear regressions,
+            a random forest model, and a neural network, as well as various data visualizations to understand our
+            findings. Our research was presented at the cumulative <a target="_blank"
+              href="https://jh-cai.com/modern-data-mining/dsl6.html" id="inline">Data
+              Science Academy Symposium</a>.</p>
+          <div id="divider"></div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div id="divider"></div>
+    <div id="name">
+      <div id="rbt" class="show">
+        <div id="dsatitle"><button onclick="rbtshow()" id="ptitle">Roboboat</button></div>
+        <div id="container">
+          <div id="divider"></div><img src="imgs/Untitled drawing (3).jpg" height=30% width=30% id="auto"><br>
+          <div id="divider"></div>
+          <p>
+            For my Computer Systems Research Lab project, I worked on a team with 10 other students to design a robotic
+            boat for the <a target="_blank" href="https://robonation.org/programs/roboboat/" id="inline">Roboboat
+              competition</a>. In
+            the
+            competition,
+            which has been hosted annually in Florida for over 10
+            years, boats have to navigate a series of obstacles fully autonomously.
+            As the Groundstation lead, I was responsible for developing the boat's web interface. The website was hosted
+            via WiFi hotspot on a Jetson Nano computer, which would stay on the boat as it ran. It contained both a
+            frontend component, so that the user could view sensor statistics, as well as a backend component to
+            transmit data between different hardware
+            and software systems, including conveying the user-selected task number to the navigation algorithm.<br>View
+            our <a target="_blank" href="https://github.com/RoboBoatTJHSST" id="inline">GitHub</a></p>
+          <div id="divider"></div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div id="divider"></div>
+    <div id="name">
+      <div id="sai" class="show">
+        <div id="dsatitle"><button onclick="saishow()" id="ptitle">SpotifAI</button></div>
+        <div id="container">
+          <div id="divider"></div><img src="imgs/sai.png" height=40% width=40% id="auto"><br>
+          <div id="divider"></div>
+          <p>
+            SpotifAI is a website I designed as a personal project to display Spotify's listening history statistics
+            from
+            a
+            user's account.
+            For any user, the website will display the user's playlists (along with the author and number of songs) and
+            their
+            respective top 3 artists, as well as the user's
+            50 top artists, songs, and recently played songs. The website can also play "preview" clips of the user's
+            top 3 songs. All of this data is available for short range (4 weeks), mid-range (6 months), and long-range
+            (all
+            time) time periods, and the user can navigate between these periods using a dropdown menu.<br>View the <a
+              href="https://github.com/lrhyde/spotifai2" target="_blank" id="inline">GitHub Repo</a></p>
+          <div id="divider">
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div id="divider"></div>
+    <div id="name">
+      <div id="mns" class="show">
+        <div id="dsatitle"><button id="ptitle">StoryStream</button></div>
+        <div id="container">
+          <div id="divider"></div><img src="imgs/stream.png" height=40% width=40% id="auto"><br>
+          <div id="divider"></div>
+          <p>
+            StoryStream is a personal project I created as a solution to difficult-to-read word and txt files.
+            StoryStream
+            incorporates a colorful and intuitive interface, automatic bookmarking, and divides
+            the text up into pages and paragraphs to improve attention span. The app
+            also supports multiple users at once, and features a web scraper made
+            with BeautifulSoup, so that it can display hard-to-read webpages as well. StoryStream was created with
+            HTML, CSS, Python (Flask), and client-side JS.
+            <br>View the <a href="https://github.com/lrhyde/storystream" target="_blank" id="inline">GitHub Repo</a>
+          </p>
+          <div id="divider"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div id="divider"></div>
+  <div id="name">
+    <div id="mns" class="show">
+      <div id="dsatitle"><button onclick="mnsshow()" id="ptitle">States Minesweeper</button></div>
+      <div id="container">
+        <div id="divider"></div><img src="imgs/minesweeper.jpg" height=40% width=40% id="auto"><br>
+        <div id="divider"></div>
+        States Minesweeper is a fully-functioning minesweeper game I created from scratch. The mines were
+        overlayed on an SVG
+        map of the United States and the user had to figure out which states were mines. The remaining states were
+        color-coded to
+        indicate how many mines they border, and this could be revealed by the user by double clicking on safe states.
+        I created the game in
+        javascript (Node.js) with HTML and CSS components. Other features included a randomized algorithm for placing
+        the mines,
+        an OAuth login mechanism, and a timer with a leaderboard for the top times.<div id="divider"></div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <br><br><br>
+  <div id="contdiv">
+    <h2 id="contitle">Contact Me</h2>
+    <div id="container">
+      <div id="contact">
+        <a target="_blank" href=https://www.linkedin.com/in/lauren-hyde05><img src="imgs/linkedin3.png" id="linkedin2"
+            height="30px" width="30px"></a>
+        <div id="divider5"></div>
+        <a target="_blank" href="https://www.facebook.com/profile.php?id=100039201878785"><img src="imgs/facebook2.png"
+            id="facebook2" height="30px" width="30px"></a>
+        <div id="divider5"></div>
+        <a target="_blank" href="mailto: lrhyde13@gmail.com"><img src="imgs/email2.png" id="email2" height="31px"
+            width="31px"></a>
+      </div>
+    </div>
+  </div>
+  <script>
+    function dsashow() {
+      var x = document.getElementById("dsainfo");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+    function rbtshow() {
+      var x = document.getElementById("rbtinfo");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+    function saishow() {
+      var x = document.getElementById("saiinfo");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+    function mnsshow() {
+      var x = document.getElementById("mnsinfo");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    }
+    function reveal() {
+      var reveals = document.querySelectorAll(".show");
+      for (var i = 0; i < reveals.length; i++) {
+        var windowHeight = window.innerHeight;
+        var elementTop = reveals[i].getBoundingClientRect().top;
+        var elementVisible = 50;
+        if (elementTop < windowHeight - elementVisible) {
+          reveals[i].classList.add("active");
+        } else {
+          reveals[i].classList.remove("active");
+        }
+      }
+    }
+    function reveal2() {
+      var reveals = document.querySelectorAll(".show2");
+      for (var i = 0; i < reveals.length; i++) {
+        var windowHeight = window.innerHeight;
+        var elementTop = reveals[i].getBoundingClientRect().top;
+        var elementVisible = 150;
+        if (elementTop < windowHeight - elementVisible) {
+          reveals[i].classList.add("active");
+        } else {
+          reveals[i].classList.remove("active");
+        }
+      }
+    }
+    window.addEventListener("scroll", reveal);
+    window.addEventListener("scroll", reveal2);
+    // To check the scroll position on page load
+    reveal();
+    reveal2();
+  </script>
+</body>
+
+</html>

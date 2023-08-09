@@ -1,0 +1,371 @@
+@font-face {
+    font-family: lobster;
+    src: url(fonts/lobster.ttf);
+}
+
+@font-face {
+    font-family: gotham;
+    src: url(fonts/GothamMedium.ttf);
+}
+
+@font-face {
+    font-family: dancing;
+    src: url(fonts/dancing.ttf);
+}
+
+@font-face {
+    font-family: courgette;
+    src: url(fonts/Courgette-Regular.ttf);
+}
+
+@font-face {
+    font-family: mont;
+    src: url(fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: raleway;
+    src: url(fonts/Raleway-VariableFont_wght.ttf);
+}
+
+body {
+    margin: 0;
+    padding-right: 10px;
+}
+
+#name {
+    display: flex;
+}
+
+* {
+    font-family: raleway;
+}
+
+h2 {
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+ul {
+    margin-left: 0px;
+    padding-left: 19px;
+}
+
+#atitle {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#linebreak {
+    font-size: 1px;
+}
+
+h1 {
+    font-size: 30px;
+    background-color: rgb(137, 190, 234);
+    font-family: courgette;
+    font-weight: bold;
+}
+
+#header {
+    background-color: rgb(137, 190, 234);
+    display: flex;
+    justify-content: space-between;
+    width: 100.65%;
+}
+
+#projtext {
+    margin-left: 10px;
+}
+
+#nav {
+    display: flex;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+img {
+    padding-top: 4px;
+}
+
+#avatar {
+    padding-top: 4px;
+    border-radius: 50%;
+}
+
+#profimg {
+    border-radius: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+#projects {
+    display: flexbox;
+}
+
+#dsatitle {
+    text-align: center;
+}
+
+#ptitle {
+    font-size: 4vh;
+}
+
+#auto {
+    margin: auto;
+    display: block;
+    padding-bottom: 10px;
+}
+
+#inline {
+    font-size: 2.7vh;
+    font-family: raleway;
+    text-decoration: underline;
+    display: inline-block;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: rgb(97, 160, 211);
+    font-weight: normal;
+}
+
+#hs,
+#college {
+    background-color: rgb(228, 237, 246);
+    padding-left: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    width: 370px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+li {
+    padding-right: 4px;
+}
+
+#langs,
+#oskills,
+#cw,
+#exp {
+    width: 530px;
+    border-radius: 5px;
+    background-color: rgb(228, 237, 246);
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+#linkedin2,
+#facebook2,
+#email2 {
+    padding-top: 5px;
+}
+
+#dsa,
+#rbt,
+#sai,
+#mns {
+    width: 95%;
+    height: 95%;
+    border-radius: 5px;
+    background-color: rgb(228, 237, 246);
+}
+
+#contdiv {
+    background-color: rgb(242, 246, 250);
+    width: 100.65%
+}
+
+#dsainfo,
+#saiinfo,
+#rbtinfo,
+#mnsinfo {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+button {
+    border: none;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 0px;
+    margin-left: 0px;
+    background-color: rgb(228, 237, 246);
+}
+
+#abouttext {
+    width: 500px;
+    padding-left: 0px;
+    padding-top: 10px;
+    margin: auto;
+    font-size: 17px;
+}
+
+#title {
+    font-size: 20px;
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+#about {
+    background-image: linear-gradient(rgb(137, 190, 234), white);
+    height: 620px;
+    text-align: center;
+    width: 100.65%;
+}
+
+#resume {
+    background-color: rgb(137, 190, 234);
+    border-radius: 7px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#education,
+#skills,
+#contact {
+    display: flex;
+    margin: auto;
+}
+
+#divider {
+    padding-left: 10px;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    padding-left: 0px;
+    font-size: 2.7vh;
+}
+
+#items {
+    background-color: rgb(252, 188, 210);
+    padding-left: 5px;
+    padding-bottom: 5px;
+    width: 400px;
+    border-radius: 5px;
+}
+
+#contitle {
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+
+#facebook {
+    padding-top: 15px;
+}
+
+#email {
+    padding-top: 15px;
+}
+
+#resume {
+    padding-top: 7px;
+}
+
+.show {
+    transform: translateY(300px);
+    margin: auto;
+    transform: translateX(-475px);
+    opacity: 0;
+    transition: 2s all ease;
+}
+
+.show.active {
+    transform: translateY(0px);
+    margin: auto;
+    opacity: 1;
+}
+
+.show2 {
+    transform: translateY(20px);
+    opacity: 0;
+    transition: 2s all ease;
+}
+
+#linkedin {
+    padding-top: 8px;
+}
+
+#divider5 {
+    width: 7px;
+}
+
+.show2.active {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.dropdown:hover .dropdown_content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgb(228, 237, 246);
+    z-index: 1;
+}
+
+.dropbtn {
+    font-size: 20px;
+    background-color: rgb(137, 190, 234);
+    padding: 10px;
+}
+
+#nav a {
+    padding-top: 10px;
+}
+
+.dropdown_content a:hover {
+    background-color: rgb(240, 242, 247);
+}
+
+.dropdown_content a {
+    color: black;
+    padding-left: 8px;
+    padding-top: 12px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+}
+
+.droptext {
+    padding-bottom: 20px;
+}
+
+.dropdown_content {
+    display: none;
+    position: absolute;
+    background-color: rgb(228, 237, 246);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    right: 0;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+#resume:hover {
+    background-color: rgb(162, 208, 246);
+}
