@@ -118,6 +118,7 @@ img {
 
 #dsatitle {
     text-align: center;
+    color: black;
 }
 
 #ptitle {
@@ -331,6 +332,7 @@ button {
 
 #nav a {
     padding-top: 10px;
+    color: black;
 }
 
 .dropdown_content a:hover {
