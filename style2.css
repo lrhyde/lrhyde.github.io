@@ -226,6 +226,7 @@ button {
     height: 700px;
     text-align: center;
     width: 100.65%;
+    padding-left: 0px;
 }
 
 #resume {
@@ -267,7 +268,7 @@ button {
     text-align: center;
     font-size: 20px;
     padding-left: 0px;
-    padding-bottom: 0px;
+    padding-bottom: 4px;
 }
 
 #facebook {
@@ -302,6 +303,40 @@ button {
     transition: 2s all ease;
 }
 
+#coincontainer {
+    position: relative;
+    height: 350px;
+    width: 350px;
+    margin: auto;
+    padding-left: 0px;
+}
+
+#coin {
+    position: relative;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    perspective: 150rem;
+    left: -50%;
+}
+
+.coinimg {
+    backface-visibility: hidden;
+    position: absolute;
+    transition: transform 1s;
+}
+
+.bg2 {
+    transform: rotateY(-180deg);
+}
+
+#coincontainer:hover .bg2 {
+    transform: rotateY(0deg);
+}
+
+#coincontainer:hover .bg1 {
+    transform: rotateY(180deg);
+}
+
 #linkedin {
     padding-top: 8px;
 }
@@ -330,7 +365,7 @@ button {
     padding: 10px;
 }
 
-#nav a {
+.navbar {
     padding-top: 10px;
     color: black;
 }
@@ -342,15 +377,16 @@ button {
 .dropdown_content a {
     color: black;
     padding-left: 8px;
-    padding-top: 12px;
-    padding-bottom: 20px;
+    padding-top: 18px;
+    padding-bottom: 18px;
     text-decoration: none;
     display: block;
     font-size: 16px;
 }
 
 .droptext {
-    padding-bottom: 20px;
+    padding-bottom: 18px;
+    padding-top: 18px;
 }
 
 .dropdown_content {
