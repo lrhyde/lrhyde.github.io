@@ -238,7 +238,7 @@ button {
 
 #about {
     background-image: linear-gradient(rgb(137, 190, 234), white);
-    height: 780px;
+    height: fit-content;
     text-align: center;
     width: 100.65%;
     padding-left: 0px;
