@@ -159,7 +159,7 @@ img {
 
 #hs,
 #college {
-    background-color: rgb(228, 237, 246);
+    background-color: rgb(227, 241, 255);
     padding-left: 5px;
     padding-bottom: 5px;
     text-align: center;
@@ -178,7 +178,7 @@ li {
 #exp {
     width: 530px;
     border-radius: 5px;
-    background-color: rgb(228, 237, 246);
+    background-color: rgb(227, 241, 255);
     padding-left: 5px;
     padding-bottom: 5px;
 }
@@ -196,7 +196,7 @@ li {
     width: 95%;
     height: 95%;
     border-radius: 5px;
-    background-color: rgb(228, 237, 246);
+    background-color: rgb(227, 241, 255);
 }
 
 #contdiv {
@@ -219,11 +219,11 @@ button {
     font-weight: bold;
     padding-left: 0px;
     margin-left: 0px;
-    background-color: rgb(228, 237, 246);
+    background-color: rgb(227, 241, 255);
 }
 
 #abouttext {
-    width: 500px;
+    width: 600px;
     padding-left: 0px;
     padding-top: 10px;
     margin: auto;
@@ -238,7 +238,7 @@ button {
 
 #about {
     background-image: linear-gradient(rgb(137, 190, 234), white);
-    height: 800px;
+    height: 780px;
     text-align: center;
     width: 100.65%;
     padding-left: 0px;
@@ -369,6 +369,19 @@ button {
 
 #divider5 {
     width: 7px;
+}
+
+#sklogos{
+    background-color: rgb(227, 241, 255);
+    border-radius: 6px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+#sktitle{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 .show2.active {
