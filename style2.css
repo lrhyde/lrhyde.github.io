@@ -391,11 +391,16 @@ button {
 
 .dropdown:hover .dropdown_content {
     display: block;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .dropdown:hover .dropbtn {
     background-color: rgb(228, 237, 246);
     z-index: 1;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .dropbtn {
