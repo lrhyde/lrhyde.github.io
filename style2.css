@@ -165,7 +165,7 @@ img {
     text-align: center;
     width: 370px;
     border-radius: 5px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 li {
@@ -180,6 +180,7 @@ li {
     border-radius: 5px;
     background-color: rgb(227, 241, 255);
     padding-left: 5px;
+    font-size: 20px;
     padding-bottom: 5px;
 }
 
@@ -235,6 +236,29 @@ button {
     padding-top: 5px;
     font-weight: bold;
 }
+
+#typingEffect::after {
+    content: "";
+    width: 2px;
+    height: 25px;
+    opacity: 0;
+    background: black;
+    display: inline-block;
+    animation: blink 1s linear infinite alternate;
+    margin-left: 1px;
+    position: relative;
+    top: 50%;
+  }
+
+  @keyframes blink {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
 
 #about {
     background-image: linear-gradient(rgb(137, 190, 234), white);
