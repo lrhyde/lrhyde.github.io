@@ -146,8 +146,12 @@ img {
     padding-bottom: 10px;
 }
 
+.br2{
+    filter: drop-shadow(rgb(224, 233, 243) 3px 3px 2px);
+}
+
 #inline {
-    font-size: 1.7vw;
+    font-size: 1.4vw;
     font-family: raleway;
     text-decoration: underline;
     display: inline-block;
@@ -302,7 +306,7 @@ button {
     display: flex;
     align-items: center;
     padding-left: 0px;
-    font-size: 1.7vw;
+    font-size: 1.4vw;
 }
 
 #items {
