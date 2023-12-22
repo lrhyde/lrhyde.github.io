@@ -380,7 +380,7 @@ button {
 }
 
 .bg2 {
-    transform: rotateY(-540deg);
+    transform: rotateY(-180deg);
 }
 
 #coincontainer:hover .bg2 {
@@ -388,7 +388,7 @@ button {
 }
 
 #coincontainer:hover .bg1 {
-    transform: rotateY(540deg);
+    transform: rotateY(180deg);
 }
 
 #linkedin {
