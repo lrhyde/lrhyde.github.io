@@ -1,6 +1,6 @@
 const typingEffectLoop = {
     textArray: [
-      "Hello and Welcome!",
+      "Hello and welcome!",
       "I'm Lauren, a full-stack developer",
       "n Illini",
       " software engineer",
