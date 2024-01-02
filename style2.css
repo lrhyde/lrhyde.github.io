@@ -367,7 +367,7 @@ button {
 
 #coin {
     position: relative;
-    transition: transform 2s;
+    transition: transform 1s;
     transform-style: preserve-3d;
     perspective: 150rem;
     left: -50%;
@@ -376,7 +376,7 @@ button {
 .coinimg {
     backface-visibility: hidden;
     position: absolute;
-    transition: transform 2s;
+    transition: transform 1s;
 }
 
 .bg2 {
