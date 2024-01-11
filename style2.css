@@ -42,7 +42,7 @@ body {
 }
 
 h2 {
-    font-size: 25px;
+    font-size: 30px;
     padding-left: 10px;
 }
 
@@ -185,7 +185,6 @@ li {
     background-color: rgb(227, 241, 255);
     padding-left: 5px;
     font-size: 20px;
-    padding-bottom: 5px;
 }
 
 #linkedin2,
@@ -236,7 +235,8 @@ button {
 }
 
 #title {
-    font-size: 20px;
+    font-size: 22px;
+    margin-top: 5px;
     padding-top: 5px;
     font-weight: bold;
 }
@@ -296,6 +296,8 @@ button {
 #contact {
     display: flex;
     margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #divider {
@@ -402,7 +404,8 @@ button {
 #sklogos{
     background-color: rgb(227, 241, 255);
     border-radius: 6px;
-    margin-left: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
     margin-bottom: 10px;
     margin-top: 5px;
 }
@@ -410,6 +413,17 @@ button {
 #sktitle{
     padding-bottom: 0px;
     margin-bottom: 0px;
+    padding-left: 20px;
+}
+
+#edutitle{
+    margin-bottom: 5px;
+    padding-left: 20px;
+}
+
+#projtitle{
+    padding-left: 20px;
+    margin-bottom: 10px;
 }
 
 .show2.active {
