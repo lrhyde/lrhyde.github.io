@@ -163,6 +163,11 @@ img {
     font-weight: normal;
 }
 
+#italic{
+    font-style:oblique;
+    font-size: 1.3vw;
+}
+
 #hs,
 #college {
     background-color: rgb(227, 241, 255);
