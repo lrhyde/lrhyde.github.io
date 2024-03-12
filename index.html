@@ -64,7 +64,7 @@
               access to air quality information</li>
             <li><strong>MicroCredentials @ Illinois:</strong> Assisting on development for a platform to allow
               UIUC courses to create credentials and certificates recognizing student achievement</li>
-            <li><strong>Classi:</strong> SQL-based web platform to help Illinois students find the best classes</li>
+            <li><strong>PickMe:</strong> Using machine learning to make daily decisions easy</li>
           </ul>
         </div>
       </div>
@@ -129,15 +129,13 @@
     <div id="oskills"><div id="title">Technical Skills</div>
       <ul>
         <li>Front-end Web Development <span id="italic">(React, Typescript, Javascript, CSS/HTML)</span></li>
-        <li>Back-end Web Development <span id="italic">(Flask, Node.js, Express.js, MongoDB, REST APIs)</span></li>
+        <li>Back-end Web Development <span id="italic">(Flask, Node.js, Express.js, MongoDB, SQL, REST APIs)</span></li>
         <li>Mobile App Development <span id="italic">(Android)</span></li>
-        <li>Data Visualization</li>
         <li>Data Analysis <span id="italic">(R, Python, SQL)</span></li>
         <li>Computer Vision <span id="italic">(C++, OpenCV)</span></li>
         <li>Software Testing</li>
         <li>Data Structures <span id="italic">(Java, C++)</span></li>
         <li>Object-Oriented Programming <span id="italic">(C++, Java, Python, Javascript)</span></li>
-        <li>Discrete Structures</li>
         <li>Artificial Intelligence & Algorithms</li>
       </ul>
     </div>
@@ -148,29 +146,26 @@
         <li>Artificial Intelligence 1 & 2</li>
         <li>Computer Vision 1 & 2</li>
         <li>Computer Systems Research Lab</li>
-        <li>CS225 Data Structures</li>
-        <li>CS233 Computer Architecture</li>
-        <li>CS222 Software Design Lab</li>
-        <li>CS173 Discrete Structures</li>
-        <li>AP Computer Science A with Data Structures</li>
-        <li>TE200 Introduction to Innovation</li>
+        <li>Database Systems</li>
+        <li>Data Structures</li>
+        <li>Computer Architecture</li>
+        <li>Software Design Lab</li>
+        <li>Introduction to Innovation</li>
         <li>Linear Algebra</li>
-        <li>MATH241 Calculus III</li>
-        <li>AP Statistics</li>
+        <li>Calculus III</li>
+        <li>Statistics and Probability</li>
       </ul>
     </div>
     <div id="divider"></div>
     <div id="exp"><div id="title">Other Experience</div>
       <ul>
-        <li>Hack4Impact - volunteer software developer</li>
         <li>d7 Data Science Research Collaborative - backend developer</li>
+        <li>Hack4Impact - volunteer software developer</li>
         <li>UIUC Data Dive - data analyst</li>
-        <li>Wharton Data Science Academy</li>
+        <li>Wharton Data Science Academy - data science researcher</li>
+        <li>Girls Who Math - Python Teacher </li>
         <li>2023 MechMania AI Competition - 3rd place</li>
         <li>2023 Innovation Fair - AWARE $500 prize winner</li>
-        <li>GEMS Teaching Program - President</li>
-        <li>Girls Who Math - Python Teacher </li>
-        <li>Tutor - Math, science, CS (FCSTA, Schoolhouse.world, TJPT)</li>
       </ul>
     </div>
   </div>
@@ -185,12 +180,54 @@
           <div id="divider"></div>
           <p>
             I am a backend developer for a platform built by <a href=https://waf.cs.illinois.edu/
-              target="_blank" id="inline">Professor Wade Fagen-Ulmschneider</a>
-             and other members of the <a href="https://d7.cs.illinois.edu/people/" target="_blank" id="inline">d7 Research Group</a> to help UIUC (and other) students learn data science in a beginner-friendly way. The site has 
+              target="_blank" id="inline">Prof. Wade Fagen-Ulmschneider</a>
+             and other members of the <a href="https://d7.cs.illinois.edu/visualizations/" target="_blank" id="inline">d7 Research Group</a> to help UIUC (and other) students learn data science in a beginner-friendly way. The site has 
             already been used by thousands of Illinois students in exams and homework problems. 
             I used the Jest testing framework to write unit tests for several components of the backend, fixing bugs, 
-            as well as working with Node.js, SQLite, and Express.js in Typescript to add new features and refactor existing systems.<br><a
+            as well as working with Node.js, SQLite, and Express.js in Typescript to refactor existing systems, including
+            creating an API for running and grading Python code within the user's browser.<br><a
               href="https://mastery.cs.illinois.edu" target="_blank" id="inline">View our work here!</a></p>
+          <div id="divider">
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div id="divider"></div>
+    <div id="name">
+      <div id="sai" class="show">
+        <div id="dsatitle"><button onclick="saishow()" id="ptitle">AQI Education Platform</button></div>
+        <div id="container">
+          <div id="divider"></div><img src="imgs/openaq.png" height=25% width=25% id="auto" class="br2"><br>
+          <div id="divider"></div>
+          <p>
+            Collaboration between Hack4Impact UIUC and OpenAQ to deliver an educational webpage
+            for browsing air quality and AQI calculation information. I developed several different
+            pages and animations to contribute to the welcome & education flow of the website
+            and improve user experience. Our tech stack includes Solid.js with TSX, SCSS, and MotionOne animation
+            in order to seamlessly integrate it with OpenAQ's existing webpage.<br><a
+              href="https://github.com/hack4impact-uiuc" target="_blank" id="inline">Check out H4I's GitHub for our other work!</a></p>
+          <div id="divider">
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div id="divider"></div>
+    <div id="name">
+      <div id="sai" class="show">
+        <div id="dsatitle"><button onclick="saishow()" id="ptitle">MicroCredentials@Illinois</button></div>
+        <div id="container">
+          <div id="divider"></div><img src="imgs/microcreds.png" height=25% width=25% id="auto" class="br2"><br>
+          <div id="divider"></div>
+          <p>
+            MicroCredentials@Illinois is a webpage built by the
+            <a href="https://d7.cs.illinois.edu/visualizations/" target="_blank" id="inline">d7 Research Group</a> 
+            to issue LinkedIn credentials to students in Illinois coursework, recognizing their academic achievements.
+            It is currently already used by several UIUC courses, and our work focuses on expanding the platform to scale to many different classes
+            and a better user experience for instructors. To accommodate this, we automated several different stages of the badge
+            issuing process using Express.js, Node.js, and HTML/HBS.<br><a
+              href="https://d7.cs.illinois.edu/projects/microcredentials-at-illinois/" target="_blank" id="inline">Learn more about this project here</a></p>
           <div id="divider">
           </div>
         </div>
@@ -210,7 +247,7 @@
             aiming to improve accessibility in STEM education. We are creating a mechanism for organizations
             to upload accessible resources so that those who need them can downlaod them whenever they need to,
             as well as the corresponding authentication and book request mechanisms for organizations and users.
-            As a full-stack developer on this project, I am creating the end-to-end organization verification page and
+            As a full-stack developer on this project, I created the end-to-end organization verification page and
             various other components using Node.js, Express.js, React, and MongoDB with Chakra UI for accessible components.<br><a
               href="https://uiuc.hack4impact.org/" target="_blank" id="inline">Check out H4I's other projects!</a></p>
           <div id="divider">
