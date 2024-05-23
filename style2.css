@@ -294,6 +294,7 @@ button {
     padding-left: 5px;
     padding-right: 5px;
     padding-bottom: 1px;
+    margin: auto;
     filter: drop-shadow(rgb(181, 189, 197) 3px 3px 2px);
 }
 
