@@ -4,6 +4,7 @@ const typingEffectLoop = {
       "I'm Lauren, a full-stack developer",
       "n Illini",
       " software engineer",
+      " PayPal intern!",
     ],
   
     index: 0,
@@ -21,7 +22,7 @@ const typingEffectLoop = {
   
     addLetters: function () {
         var currentText = this.textArray[this.index];
-        if(this.index==3 || this.index==2){
+        if(this.index>=2){
             currentText = "I'm Lauren, a" + this.textArray[this.index];
         }
         else currentText = this.textArray[this.index];
@@ -31,7 +32,7 @@ const typingEffectLoop = {
   
     removeLetters: function () {
         var currentText = this.textArray[this.index];
-        if(this.index==3 || this.index==2){
+        if(this.index>=2){
             currentText = "I'm Lauren, a" + this.textArray[this.index];
         }
         else currentText = this.textArray[this.index];
@@ -64,7 +65,7 @@ const typingEffectLoop = {
         this.index = (this.index + 1) % this.textArray.length;
         delta = 500;
       }
-      else if (this.isDeleting && this.text == "I'm Lauren, a" && (this.index==1 || this.index==2)){
+      else if (this.isDeleting && this.text == "I'm Lauren, a" && (this.index==1 || this.index==2 || this.index==3)){
         this.isDeleting = false;
         this.index = (this.index + 1) % this.textArray.length;
         delta = 500;
