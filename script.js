@@ -4,7 +4,6 @@ const typingEffectLoop = {
       "I'm Lauren, a full-stack developer",
       "n Illini",
       " software engineer",
-      " PayPal intern!",
     ],
   
     index: 0,
@@ -65,7 +64,7 @@ const typingEffectLoop = {
         this.index = (this.index + 1) % this.textArray.length;
         delta = 500;
       }
-      else if (this.isDeleting && this.text == "I'm Lauren, a" && (this.index==1 || this.index==2 || this.index==3)){
+      else if (this.isDeleting && this.text == "I'm Lauren, a" && (this.index==1 || this.index==2)){
         this.isDeleting = false;
         this.index = (this.index + 1) % this.textArray.length;
         delta = 500;
