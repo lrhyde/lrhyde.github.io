@@ -44,6 +44,7 @@ body {
 h2 {
     font-size: 30px;
     padding-left: 10px;
+    padding-top: 20px;
 }
 
 ul {
@@ -376,6 +377,7 @@ button {
 .show2 {
     transform: translateY(20px);
     opacity: 0;
+    margin: auto;
     transition: 2s all ease;
 }
 
