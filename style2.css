@@ -42,8 +42,8 @@ body {
 
 h2 {
     font-size: 30px;
-    padding-left: 10px;
-    padding-top: 20px;
+    margin: 0;
+    padding: 0;
 }
 
 ul {
@@ -241,7 +241,7 @@ ul li{
 }
 
 #title {
-    font-size: 2.5vw;
+    font-size: 2.2vw;
     margin-top: 2px;
     padding-top: 5px;
     font-weight: bold;
@@ -337,6 +337,7 @@ ul li{
     font-size: 20px;
     padding-left: 0px;
     padding-bottom: 4px;
+    padding-top: 10px;
 }
 
 #facebook {
@@ -427,11 +428,11 @@ ul li{
 
 #edutitle{
     margin-bottom: -5px;
-    font-size: 3.5vh;
+    font-size: 3.2vh;
 }
 
 #first_projtitle{
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 #projtitle{
