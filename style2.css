@@ -136,7 +136,7 @@ img {
 }
 
 #ptitle {
-    font-size: 4vh;
+    font-size: 3.5vh;
 }
 
 #auto {
@@ -238,7 +238,7 @@ button {
 }
 
 #title {
-    font-size: 24px;
+    font-size: 2.5vw;
     margin-top: 2px;
     padding-top: 5px;
     font-weight: bold;
@@ -424,6 +424,7 @@ button {
 
 #edutitle{
     margin-bottom: -5px;
+    font-size: 3.5vh;
 }
 
 #first_projtitle{
@@ -433,6 +434,7 @@ button {
 #projtitle{
     padding-left: 2.5%;
     margin-bottom: 10px;
+    font-size: 3.5vh;
 }
 
 .show2.active {
