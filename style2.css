@@ -137,6 +137,9 @@ img {
 
 #ptitle {
     font-size: 3.5vh;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    margin-top: 10px;
 }
 
 #auto {
@@ -220,7 +223,7 @@ ul li{
     padding-bottom: 5px;
 }
 
-button {
+.dropbtn {
     border: none;
     font-size: 25px;
     font-weight: bold;
