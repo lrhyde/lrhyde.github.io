@@ -15,16 +15,16 @@
     <div id="name">
       <div id="divider"></div>
       <h1>
-        <div style="font-family:lobster;"><a href=http://github.com/lrhyde><i class="fa-brands fa-github"></i></a> |
+        <div style="font-family:lobster;"><a href=http://github.com/lrhyde class="titlelink"><i class="fa-brands fa-github"></i></a> |
           Lauren Hyde</div>
         <br>
       </h1>
     </div>
     <div id="nav">
-      <a href="#first_edutitle" class="navbar">Education & Skills</a>
+      <a href="#first_edutitle" class="navbar titlelink">Education & Experience</a>
       <div id="divider"></div>
       <div id="divider"></div>
-      <a href="#first_projtitle" class="navbar">Projects</a>
+      <a href="#first_projtitle" class="navbar titlelink">Projects</a>
       <div id="divider"></div>
       <div class="dropdown" style="float: right;">
         <button class="dropbtn">Contact Me</button>
@@ -48,45 +48,94 @@
       </div>
     </div>
     <div id="abouttext" class="show2">
-      <div class="atitle" id="typingEffect"></div><br> I'm Lauren, a computer science student at the University of
+      <div class="atitle" id="typingEffect"></div><br>
+      I'm Lauren, a computer science student at the University of
       Illinois at Urbana-Champaign. I love web development and data science, and am currently volunteering as
       a software developer at Hack4Impact UIUC and working on development for the d7 Research Group at Illinois.
       In my free time, I enjoy playing volleyball, baking, listening to music, and hiking! <br><br>
       <div class="updates">
         <div style="padding-bottom: 0px; margin-bottom: 0px; font-weight: bold;">What am I up to right now?</div>
-        <div id="updatestext" style="text-align: left; margin-top: 0px; padding-top: 0px;">
-          <ul>
-            <li>Back-end development for the Illinois Data Science Mastery Platform</li>
-            <li>Full-stack web/mobile development @ Hack4Impact UIUC</li>
-            <li>Check out my <a id="inline" href="http://github.com/lrhyde" target="_blank" style="color: #123F67">GitHub</a> for the most current project updates!</li>
+        <div style="text-align: left; margin-top: 0px; padding-top: 0px;">
+          <ul style="margin-bottom: 10px;">
+            <li>Working as a SWE Intern at Apple in Austin, TX on the Retail Engineering team!</li>
+            <li>Check out my <a href="http://github.com/lrhyde" target="_blank" style="color: #044074; font-weight: 600;">GitHub</a> for the most current work & project updates :)</li>
           </ul>
         </div>
       </div>
       <br>
-      <a href="Lauren_Hyde_Fa24.pdf" download id="resume">Download my Resume</a><br><br>
+      <a href="Lauren_Hyde_Fa24.pdf" class="titlelink" download id="resume">Download my Resume</a><br><br>
     </div>
   </div>
-  <div id="first_edutitle"></div>
-  <h2 id="edutitle" class="show2">Education</h2>
-  <div id="education" class="show2">
-    <div id="divider"></div>
-    <div id="college">
-      <span id="title">University of Illinois at Urbana-Champaign</span><br>
-      <img src="imgs/uiuc.png" height="80px" width="65px"><br>
-      Major: Computer Science<br>
-      GPA: 3.97<br>
-      Class of 2026
-    </div><br>
-    <div id="divider"></div>
-    <div id="hs"><span id="title">Thomas Jefferson High School for Science and Technology</span><br>
-      <img src="imgs/tjhsst.png" height="80px" width="80px"><br>
-      Computer Systems Research Lab<br>
-      GPA: 4.563<br>
-      Class of 2023
+
+  <div id="first_edutitle" style="margin-top: 40px;"></div>
+
+
+
+  <div class="show2" style="width: 95%; margin: auto; display: grid; grid-template-columns: 1fr 1fr 10px 1fr; grid-template-rows: auto; gap: 20px 20px;">
+    <h2 id="edutitle" class="show2">Experience</h2>
+    <div></div>
+    <div></div>
+    <h2 id="edutitle" class="show2">Education</h2>
+    <a href="https://www.apple.com/" target="_blank" class="titlelink" style="font-weight: normal">
+      <div id="college">
+        <h1 id="title">Apple</h1>
+        <img src="imgs/apple-logo.png" height="80px" width="80px"><br>
+        SWE Intern<br>
+        Retail Engineering Team<br>
+        Summer 2025
+      </div>
+    </a>
+    <a href="https://www.paypal.com/us/home" target="_blank" class="titlelink" style="font-weight: normal">
+      <div id="college">
+        <h1 id="title">PayPal</h1>
+        <img src="imgs/paypal-logo.png" height="80px" width="80px"><br>
+        SWE Intern<br>
+        Regulatory Compliance Team<br>
+        Summer 2024
+      </div>
+    </a>
+    <div></div>
+    <div>
+      <div id="hs">
+        <h1 id="title">University of Illinois</h1>
+        <img src="imgs/uiuc.png" height="80px" width="65px"><br>
+        B.S. Computer Science<br>
+        GPA: 3.97<br>
+        Class of 2026
+      </div>
+    </div>
+    <a href="https://d7.cs.illinois.edu/visualizations/" target="_blank" class="titlelink" style="font-weight: normal">
+      <div id="college">
+        <h1 id="title">University of Illinois</h1>
+        <img src="imgs/uiuc.png" height="80px" width="65px"><br>
+        Software Developer<br>
+        Fall 2023-present
+      </div>
+    </a>
+    <a href="https://uiuc.hack4impact.org" target="_blank" class="titlelink" style="font-weight: normal">
+      <div id="college">
+        <h1 id="title">Hack4Impact</h1>
+        <img src="imgs/hack-logo.png" height="80px" width="80px"><br>
+        Full-Stack Developer<br>
+        Fall 2023-present
+      </div>
+    </a>
+    <div></div>
+
+    <div>
+      <div id="hs">
+        <h1 id="title">TJHSST</h1>
+        <img src="imgs/tjhsst.png" height="80px" width="80px"><br>
+        GPA: 4.56<br>
+        Class of 2023
+      </div>
     </div>
   </div>
-  <h2 id="sktitle" class="show2">Skills</h2>
-  <div style="text-align: center;" id="sklogos" class="show2">
+
+
+  <div id="first_projtitle"></div>
+  <h2 id="projtitle" class="show2">Projects</h2>
+  <div style="text-align: center; position: relative; margin-bottom: 20px;" id="sklogos" class="show2">
     <a href="https://www.typescriptlang.org/" title="Typescript"><img src="https://github.com/get-icon/geticon/raw/master/icons/typescript-icon.svg" alt="Typescript" width="26px" height="26px" style="padding-right: 2px; padding-left: 2px;"></a>
     <a href="https://reactjs.org/" title="React"><img src="https://github.com/get-icon/geticon/raw/master/icons/react.svg" alt="React" width="26px" height="26px" style="padding-right: 2px; padding-left: 2px;"></a>
     <a href="https://www.python.org/" title="Python"><img src="https://github.com/get-icon/geticon/raw/master/icons/python.svg" alt="Python" width="26px" height="26px" style="padding-right: 2px; padding-left: 2px;"></a>
@@ -122,57 +171,6 @@
     <a href="https://code.visualstudio.com/" title="Visual Studio Code"><img src="https://github.com/get-icon/geticon/raw/master/icons/visual-studio-code.svg" alt="Visual Studio Code" width="26px" height="26px" style="padding-right: 2px; padding-left: 2px;"></a>
     <a href="https://www.atlassian.com/software/confluence" title="Confluence"><img src="https://github.com/get-icon/geticon/raw/master/icons/confluence.svg" alt="Confluence" width="26px" height="26px" style="padding-right: 2px; padding-left: 2px;"></a>
   </div>
-  <div id="skills" class="show2">
-    <div id="divider"></div>
-    <div id="oskills">
-      <div id="title">Technical Skills</div>
-      <ul>
-        <li>Back-end Web Development <span id="italic">(Flask, Node.js, Express.js, MongoDB, SQL, REST APIs)</span></li>
-        <li>Front-end Web Development <span id="italic">(React, Typescript, Javascript, CSS/HTML, TailwindCSS)</span></li>
-        <li>Mobile App Development <span id="italic">(React Native, Android)</span></li>
-        <li>Data Science & AI <span id="italic">(R, Python, SQL)</span></li>
-        <li>Computer Vision <span id="italic">(C++, OpenCV)</span></li>
-        <li>Software Testing</li>
-        <li>Data Structures <span id="italic">(Java, C++)</span></li>
-        <li>Object-Oriented Programming <span id="italic">(C++, Java, Python, Javascript)</span></li>
-        <li>Databases <span id="italic">(SQL, MongoDB, Neo4j)</span></li>
-      </ul>
-    </div>
-    <div id="divider"></div>
-    <div id="exp">
-      <div id="title">Experience & Awards</div>
-      <ul>
-        <li>PayPal - software engineering intern</li>
-        <li>d7 Data Science Research Collaborative - backend developer</li>
-        <li>Hack4Impact - software developer</li>
-        <li>UIUC Data Dive - data analyst</li>
-        <li>Wharton Data Science Academy - data science researcher</li>
-        <li>Girls Who Math - Python Teacher </li>
-        <li>2023 MechMania AI Competition - 3rd place</li>
-        <li>2023 Innovation Fair - AWARE $500 prize winner</li>
-      </ul>
-    </div>
-    <div id="divider"></div>
-    <div id="cw">
-      <div id="title">Coursework</div>
-      <ul>
-        <li>Mobile & Web App Development</li>
-        <li>Systems Programming</li>
-        <li>Artificial Intelligence 1 & 2</li>
-        <li>Software Design Lab</li>
-        <li>Computer Systems Research Lab</li>
-        <li>Database Systems</li>
-        <li>Data Structures</li>
-        <li>Computer Architecture</li>
-        <li>Computer Vision 1 & 2</li>
-        <li>Text Information Systems</li>
-        <li>Linear Algebra</li>
-        <li>Calculus III</li>
-      </ul>
-    </div>
-  </div>
-  <div id="first_projtitle"></div>
-  <h2 id="projtitle" class="show2">Projects</h2>
   <div id="projects">
     <div id="name">
       <div id="sai" class="show2">
@@ -301,28 +299,6 @@
     <br>
     <div id="divider"></div>
     <div id="name">
-      <div id="dsa" class="show2">
-        <div id="dsatitle"><button onclick="dsashow()" id="ptitle">Wharton Data Science Academy</button></div>
-        <div id="container">
-          <div id="divider"></div><img src="imgs/dsa3.png" height=20% width=30% id="auto" class="br2"><br>
-          <div id="divider"></div>
-          <p>
-            I attended the Wharton Data Science Academy in the summer of 2022. It was an intensive, 3-week course on
-            data science and
-            statistical analysis fundamentals in R. Our final project was an analysis of the factors that contribute to
-            depression and other mental health concerns in college students. We investigated a total of 50 qualitative
-            and quantitative variables, around 10 of which ended up being significant in our final models. Our
-            techniques included logistic and linear regressions,
-            a random forest model, and a neural network, as well as various data visualizations to understand our
-            findings. Our research was presented at the cumulative <a target="_blank" href="https://jh-cai.com/modern-data-mining/dsl6.html" id="inline">Data
-              Science Academy Symposium</a>.</p>
-          <div id="divider"></div>
-        </div>
-      </div>
-    </div>
-    <br>
-    <div id="divider"></div>
-    <div id="name">
       <div id="mns" class="show2">
         <div id="dsatitle"><button id="ptitle">StoryStream</button></div>
         <div id="container">
@@ -361,68 +337,6 @@
         an OAuth login mechanism, and a timer with a leaderboard for the top times.<div id="divider"></div>
       </div>
     </div>
-  </div>
-  <br>
-  <div id="divider"></div>
-  <div id="name">
-    <div id="rbt" class="show2">
-      <div id="dsatitle"><button onclick="rbtshow()" id="ptitle">Roboboat</button></div>
-      <div id="container">
-        <div id="divider"></div><img src="imgs/Untitled drawing (3).jpg" height=20% width=20% id="auto" class="br2"><br>
-        <div id="divider"></div>
-        <p>
-          For my Computer Systems Research Lab project, I worked on a team with 10 other students to design a robotic
-          boat for the <a target="_blank" href="https://robonation.org/programs/roboboat/" id="inline">Roboboat
-            competition</a>. In the competition,
-          which has been hosted annually in Florida for over 10
-          years, boats have to navigate a series of obstacles fully autonomously.
-          As the Groundstation lead, I was responsible for developing the boat's web interface. The website was hosted
-          via WiFi hotspot on a Jetson Nano computer, which would stay on the boat as it ran. It contained both a
-          frontend component (HTML, CSS), so that the user could view sensor statistics, as well as a backend component (Flask, Javascript) to
-          transmit data between different hardware
-          and software systems, including conveying the user-selected task number to the navigation algorithm.<br>View
-          our <a target="_blank" href="https://github.com/RoboBoatTJHSST" id="inline">GitHub</a></p>
-        <div id="divider"></div>
-      </div>
-    </div>
-  </div>
-  <br>
-  <div id="divider"></div>
-  <div id="name">
-    <div id="mns" class="show2">
-      <div id="dsatitle"><button onclick="mnsshow()" id="ptitle">Other Projects</button></div>
-      &nbsp;&nbsp;These are apps and programs I have built as part of classes or smaller personal projects. They
-      include:<br><br>
-      <div id="container">
-        <div id="divider"></div>
-        <div id="miniprojects">
-          <strong>Web/app development</strong>
-          <ul>
-            <li>Classi (Express.js, SQL, HTML, CSS) - Full-stack web application to allow students to rank
-              and save their favorite UIUC courses; featured SQL database integration from multiple data sources
-              with advanced data-driven functionalities like keyword search and analytics dashboard
-            </li>
-            <li>Cryptozone (AndroidStudio, Java) - Congressional App Challenge submission; meant to teach
-              younger students about cryptography using explanations and technical examples for 5 different ciphers</li>
-            <li>Studious (React, Flutter, HTML, CSS, Python) - HackTJ 10.0 submission; frontend development for app to search textbooks
-              with natural language processing to help students complete homework</li>
-          </ul>
-        </div>
-        <div id="miniprojects">
-          <strong>AI & Computer Vision</strong>
-          <ul>
-            <li>Train routes (Python) - Implemented and visualized the use of various graph algorithms (A*, BFS, etc.) as they ran to
-              find optimal train route between two stations</li>
-            <li>Othello AI (Python) - Created a bot from scratch to play the strategy game Othello in real time; custom modified minimax-based algorithm to optimize game strategy</li>
-            <li>Substitution Cipher Decrypter (Python) - genetic algorithm & hill climbing program to crack long and
-              short substitution ciphers by splitting words into N-grams; achieved over 90% accuracy on various encrypted messages</li>
-            <li>ObjectDetect (C++) - Implemented object edge detection using Sobel and Canny algorithms; applied to coin counting problem to count the number of different types of coins in an image</li>
-          </ul>
-        </div>
-        <div id="divider"></div>
-      </div>
-    </div>
-  </div>
   </div>
   <br><br><br>
   <div id="contdiv">
