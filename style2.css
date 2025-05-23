@@ -127,7 +127,10 @@ img {
 }
 
 #projects {
-    display: flexbox;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: auto; 
+    gap: 60px 20px;
 }
 
 #dsatitle {
@@ -145,11 +148,22 @@ img {
 #auto {
     margin: auto;
     display: block;
-    padding-bottom: 10px;
+}
+
+.icons{
+    padding-top: 15px;
 }
 
 .br2{
-    filter: drop-shadow(rgb(224, 233, 243) 3px 3px 2px);
+    filter: drop-shadow(rgb(187, 197, 209) 3px 3px 2px);
+}
+
+h3 {
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-weight: 550;
+    color: rgb(125, 125, 125)
 }
 
 #inline {
@@ -195,15 +209,18 @@ li {
     padding-top: 5px;
 }
 
-#dsa,
-#rbt,
-#sai,
-#mns {
-    width: 95%;
-    height: 95%;
-    border-radius: 5px;
-    background-color: rgb(227, 241, 255);
-    filter: drop-shadow(rgb(181, 189, 197) 3px 3px 2px);
+#sai {
+    width: 325px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #d4e3f2;
+    filter: drop-shadow(rgb(100, 121, 141) 3px 3px 3px);
+}
+
+#sai:hover{
+    background-color: #dfebf9;
+    filter: drop-shadow(rgb(34, 51, 67) 3px 3px 10px);
 }
 
 ul li{
@@ -349,11 +366,16 @@ ul li{
 }
 
 .show {
-    transform: translateY(300px);
+    transform: translateY(10px);
+    /* transform: translateY(300px); */
+    /* transform: translateX(-475px); */
     margin: auto;
-    transform: translateX(-475px);
     opacity: 0;
-    transition: 2s all ease;
+    transition: 
+        transform 2s ease,
+        opacity 2s ease,
+        0.35s background-color ease,
+        0.35s filter ease;
 }
 
 .show.active {
@@ -363,10 +385,12 @@ ul li{
 }
 
 .show2 {
-    transform: translateY(20px);
     opacity: 0;
     margin: auto;
-    transition: 2s all ease;
+    transition: 
+        1s opacity ease,
+        0.5s background-color ease,
+        0.5s filter ease;
 }
 
 #coincontainer {
@@ -492,6 +516,11 @@ ul li{
     text-decoration: none;
     display: block;
     font-size: 16px;
+}
+
+#sai > a {
+    color: rgb(57, 92, 148);
+    font-weight: 550;
 }
 
 .droptext {
