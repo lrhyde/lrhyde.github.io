@@ -388,7 +388,7 @@ ul li{
     opacity: 0;
     margin: auto;
     transition: 
-        1s opacity ease,
+        2s opacity ease,
         0.5s background-color ease,
         0.5s filter ease;
 }
